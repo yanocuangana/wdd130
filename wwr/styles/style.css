@@ -1,99 +1,109 @@
-div {
-    max-width: 1600px;
+nav {
+    background-color: steelblue;
+    color: white;
+    padding: 5px;
+}
+nav a {
+    text-align: center;
+    color: rgb(240, 238, 243);
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: black;
+    color: wheat;
+}
+footer {
+    background-color: steelblue;
+    color: white;
+    padding: 5px;
+    color: blue;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+footer a {
+    color: rgb(240, 236, 243);
+    text-decoration: none;
+}
+footer a:hover {
+    color:  antiquewhite;
+}
+a:hover {
+    background-color: blue;
+    color: steelblue;
+}
+img {
+    width: 50%;
+    display: block;
     margin: 0 auto;
 }
-h1{
-    text-align: center;
-    margin: 50px 0;
+p {
+    width: 100%;
 }
-.button-box{
+a {
+    font-size: 1.5em;
+}
+h1 {
     text-align: center;
 }
-main section{
+h4 {
+    color: black;
+}
+main p {
+    width: 80%;
+    margin: 50px auto;
     text-align: center;
 }
-#background{
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+div {
+    max-width: 1600px;
+}
+#background {
     height: 725px;
+    background-color: white;
 }
 body {
-    background-color: rgb(238, 245, 238);
-    margin: 0
+    background-color: #fcfbfb; 
 }
 header {
     background-color:rgba(20,30,13, .7);
 }
-.book, .join{
-    background-color: azure;
+.book, .join {
+    background-color: gray;
     color: blue;
     text-decoration: none;
 }
 .book:hover, .join:hover{
-    background-color: aquamarine;
-    color:black ;
+    background-color: blue;
+    color: #fcfbfb;
 }
-.msg{
-    background-color: rgb(204, 204, 222);
+.msg {
+    background-color: antiquewhite;
 }
-footer{
-    background-color: steelblue;
-    color: white;
+.msg h2 {
+    color: rgb(95, 163, 150);
 }
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+.msg p {
+    color: black;
 }
-nav{
-    text-align: center;
-    background-color: steelblue;
-    color: blue;
-    text-decoration: none;
-    padding: 25px;
-}
-a{
-    color: white;
-    padding: 25px;
-}
-.home-title{
-    background-color: white;
+.home-title {
     color: green;
 }
-h4{
-    text-align: center;
-    background-color:gray;
-    color: black;
-}
-.msg p{
-    background-color:rgb(239, 231, 231);
-    color: black;
-}
-.msg h2{
-    background-color:grey ;
-    color:white ;
-}
-footer a{
-    background-color:gray ;
-    color: blue;
-    text-decoration: none;
-}
-footer a:hover{
-    background-color:white ;
-    color:black ;
-}
-.icon{
+.icon {
     width: 80px;
 }
-.logo{
-    width: 20%;
-}
-#hero-img{
-    width: 100%;
-}
-footer p{
-    padding: 25px;
-}
-footer p a:hover {
-    text-decoration: underline;
-}
-img {
-    border: 4px solid steelblue;
+.logo {
+    width: 80px;
 }
