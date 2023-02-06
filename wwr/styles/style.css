@@ -19,7 +19,7 @@ footer {
     color: blue;
 }
 footer p {
-    font-size: 30px;
+    font-size: 1.2em;
     margin: 30px auto;
 }
 footer a {
@@ -28,6 +28,9 @@ footer a {
 }
 footer a:hover {
     color:  antiquewhite;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
 a:hover {
     background-color: blue;
