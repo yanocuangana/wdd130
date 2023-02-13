@@ -1,0 +1,257 @@
+.content1{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+}
+
+.red1 { 
+    width: 100%; 
+    height: 100px; 
+    background-color: red; 
+    grid-column: 1/3;
+}
+
+.green1 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: green; 
+}
+
+.green1 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: green; 
+}
+
+.yellow1 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: yellow; 
+}
+
+.yellow1 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: yellow; 
+}
+
+.blue1 { 
+    width: 100%; 
+    height: 100px; 
+    background-color: blue; 
+    grid-column: 1/3;
+}
+
+
+.content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.content2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+}
+
+.red2 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: red; 
+    grid-column: 1/3;
+    justify-self: left;
+    align-self: left;
+}
+
+.green2 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: green;
+    grid-column: 1/3; 
+}
+
+.yellow2 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: yellow;
+    grid-column: 2/3;
+}
+
+.blue2 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: blue;
+    justify-self: center;
+    align-self: center; 
+    grid-column: 3/2;
+}
+
+.content3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.content3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+}
+.red3 { 
+    width: 100%; 
+    height: 100px; 
+    background-color: red; 
+    grid-column: 1/3;
+}
+.green3 { 
+    width: 700px; 
+    height: 200px;
+    justify-self: start;
+    align-self: start;
+    background-color: green; 
+}
+.yellow3 { 
+    width: 700px; 
+    height: 200px; 
+    justify-self: right;
+    align-self: right;
+    background-color: yellow;
+    align-self: end; 
+}
+.blue3 { 
+    width: 100%; 
+    height: 100px; 
+    background-color: blue; 
+    grid-column: 1/3;
+}
+.content4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+}
+.content4 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.red4 { 
+    width: 300px; 
+    height: 700px; 
+    background-color: red;
+    justify-self: start;
+    align-self: start;
+    grid-column: 1/3;
+    
+}
+.green4 { 
+    width: 1000px; 
+    height: 200px;
+    justify-self: right;
+    align-self: right; 
+    background-color: green; 
+}
+.yellow4 { 
+    width: 100px; 
+    height: 100px;
+    justify-self: right;
+    align-self: right; 
+    background-color: yellow;
+} 
+.blue4 { 
+    width: 100%; 
+    height: 100px;
+    justify-self: right;
+    align-self: right; 
+    background-color: blue;
+    grid-column: 1/3; 
+}
+.content5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.content5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+}
+.red5 { 
+    width: 100%; 
+    height: 100px; 
+    background-color: red; 
+    grid-column: 1/3;
+}
+.green5 { 
+    width: 100px; 
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+
+.yellow5 { 
+    width: 2000px; 
+    height: 500px; 
+    background-color: yellow; 
+}
+.blue5 { 
+    width: 100%; 
+    height: 100px; 
+    background-color: blue; 
+    grid-column: 1/3;
+}
+
+.content6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.content6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-gap: 20px;
+}
+
+.red6 { 
+    width: 400px; 
+    height: 400px; 
+    background-color: red; 
+    grid-column: 1/3;
+    justify-self: left;
+    align-self: left;
+}
+
+.green6 { 
+    width: 600px; 
+    height: 600px; 
+    background-color: green;
+    justify-self: center;
+    align-self: center;
+    grid-column: 2/2;
+     
+}
+
+.yellow6 { 
+    width: 200px; 
+    height: 200px; 
+    background-color: yellow;
+    justify-self: start;
+    align-self: start;
+}
+
+.blue6 { 
+    width: 400px; 
+    height: 400px; 
+    background-color: blue;
+    justify-self: right;
+    align-self: end; 
+    grid-column: 3/2;
+}
