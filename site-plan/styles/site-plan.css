@@ -2,9 +2,9 @@
 
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #ff3700;
-    --secondary-color: #ffff00;
-    --accent1-color: #000000;
+    --primary-color: #ad5239;
+    --secondary-color: #b8b82e;
+    --accent1-color: #2d2525;
     --accent2-color: #ffffff;
 
     /* change the values below to your chosen font(s) */
@@ -176,19 +176,19 @@ nav a:hover {
 
 .sm-home {
     grid-area: home;
-    background-color: #ccc;
+    background-color: rgb(62, 53, 53);
     line-height: 3em;
 }
 
 .sm-page2 {
     grid-area: page2;
-    background-color: #ccc;
+    background-color: rgb(117, 39, 39);
     line-height: 3em;
 }
 
 .sm-page3 {
     grid-area: page3;
-    background-color: #ccc;
+    background-color: rgb(146, 146, 38);
     line-height: 3em;
 }
 
