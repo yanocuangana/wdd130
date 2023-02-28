@@ -176,19 +176,19 @@ nav a:hover {
 
 .sm-home {
     grid-area: home;
-    background-color: rgb(62, 53, 53);
+    background-color: #ccc;
     line-height: 3em;
 }
 
 .sm-page2 {
     grid-area: page2;
-    background-color: rgb(117, 39, 39);
+    background-color: #ccc;
     line-height: 3em;
 }
 
 .sm-page3 {
     grid-area: page3;
-    background-color: rgb(146, 146, 38);
+    background-color: #ccc;
     line-height: 3em;
 }
 
