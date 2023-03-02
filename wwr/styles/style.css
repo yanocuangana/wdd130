@@ -296,3 +296,6 @@ main section img {
         margin-top: 25px;
     }
 }
+.rivers1-img, .rivers2-img {
+    width: 500px;
+}
