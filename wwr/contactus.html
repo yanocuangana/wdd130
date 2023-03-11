@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contactus.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Contact Us</title>
 </head>
 
@@ -22,17 +22,12 @@
                 <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="images/river-wide2.jfif" alt="river-wide2">
-            </div>
-            <section id="hero-msg">
-                <h1 class="rivers-title">Contact Us</h1>
-            </section>
-        </div>
         <div id="feedback"></div>
         <main>
             <form action="/my-handling-form-page" method="post">
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                </li>
                 <ul>
                     <li>
                         <label for="name">Name:</label>
@@ -47,12 +42,8 @@
                         <textarea id="msg" name="user_message"></textarea>
                     </li>
                 </ul>
-                <li class="button">
-                    <button type="submit">Send your message</button>
-                </li>
+                <input type="text" value="by default this element is filled with this text" />
             </form>
-            <input type="text" value="by default this element is filled with this text" />
-
         </main>
         <footer>
             <p>Dry Oar © 2023 - Floriano Cuangana</p>
