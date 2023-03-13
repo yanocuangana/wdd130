@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:ital,wght@1,100&display=swap');
+
+
+#meet {
+    max-width: 1600px;
+    margin: 0 auto
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: rgba(20, 30, 13, .7);
+    width: 100%;
+}
+.logo {
+    width: 80px;
+    border-radius: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 35px;
+}
+footer {
+    background-color: #6f7364;
+    color: #fff;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: rgb(240, 236, 243);
+    text-decoration: none;
+}
+footer p {
+    font-size: 1.2em;
+
+}
+.angola-img {
+    width: 500px;
+    padding-top: 70px;
+    justify-self: center;
+    align-self: center;
+}
+.map {
+    width: 500px;
+    padding-top: 70px;
+    justify-self: center;
+    align-self: center;
+}
+
+.angola-card {
+    width: 1200px;
+    margin: auto;
+}
+.container {
+    display: table;
+}
+.img {
+    display: table-cell;
+    float: left;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.text {
+    display: table-cell;
+    float: left;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 20px;
+    vertical-align: top;
+    text-align: justify;
+}
+.map1 {
+    display: table;
+}
+.map-img {
+    display: table-cell;
+    float: right;
+    width: 600px;
+    padding-top: 20px;
+    margin-right: -500px;
+    vertical-align: top;
+    
+}
+.text2 {
+    display: table-cell;
+    float: left;
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 20px;
+    text-align: justify;
+
+    
+}
+.join:hover {
+    background-color: blue;
+    color: #fcfbfb;
+}
+nav a:hover {
+    background-color: blue;
+    color: wheat;
+}
+main {
+    min-width: 320px;
+    max-width: 1080px;
+    margin: auto;
+}
+
+
+.dance-img {
+    width: 500px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text3 {
+    text-align: justify;
+    margin-left: 20px;
+}
+.text4 {
+    margin-top: 26px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.text5 {
+    margin-left: 20px;
+    text-align: justify;
+}
+.food  {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.culture {
+    display: flex;
+}
+#mee {
+    background-color: #994D00;
+}
+#me {
+    background-color: #cddbf0;
+    text-align: left;
+  
+}
+.water-img, .desert {
+    width: 500px;
+    margin-left: 200px;
+}
+.text6 {
+    text-align: justify;
+}
+.text7 {
+    text-align: justify;
+}
+.text8 {
+    text-align: justify;
+}
