@@ -2,6 +2,9 @@
 
 
 #meet {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
     max-width: 1600px;
     min-width: 500px;
     margin: 0 auto
@@ -9,13 +12,14 @@
 
 #mee,
 #me {
+    
     max-width: 1600px;
     min-width: 500px;
 }
 
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 200px auto;
     background-color: rgba(20, 30, 13, .7);
     width: 100%;
 }
