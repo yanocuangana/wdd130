@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+  }
+  .grid1 {
+    grid-template-columns: 12;
+    padding-top: 2em;
+  }
+  
+  .grid1 h1 {
+    
+  }
+  
+  .grid2 {
+    
+  }
+  .grid2 h2 {
+    
+  }
+  .grid3 {
+    
+  }
+  
+  .grid3 h3 {
+    
+  }
+  
+  .grid4 {
+    
+  }
+  
+  .grid4 h2 {
+    
+  }
+  .grid5{
+    grid-template-columns: 12;
+  }
+  
+  section {
+    
+  }
+  
+  section h2 {
+    
+  }
+  
+  form {
+    
+  }
+  
+  
+  legend {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  fieldset > div {
+    grid-template-columns: (1fr 5fr);
+  }
+  
+  label {
+    
+  }
+  
+  input {
+    
+  }
+  
+  button {
+    
+  }
+  
+  section > div {
+    
+  }
