@@ -21,10 +21,10 @@
     --paragraph-color-on-color: black;
     /* paragraph text on a colored background */
     --paragraph-background-color: #697781;
-    --nav-link-color: yellow;
+    --nav-link-color: rgba(20, 30, 13, .7);
     --nav-background-color: #396E94;
     --nav-hover-link-color: white;
-    --nav-hover-background-color: #050505;
+    --nav-hover-background-color: blue;
 }
 
 

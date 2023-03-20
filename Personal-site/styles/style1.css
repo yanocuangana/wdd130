@@ -47,7 +47,7 @@ nav {
 
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    color: white;
     text-decoration: none;
     padding: 35px;
 }
@@ -111,6 +111,12 @@ footer p {
     vertical-align: top;
     text-align: justify;
 }
+.text p:nth-of-type(1) { 
+    color: black;
+}
+.text2 p:nth-of-type(1) {
+    color: black;
+} 
 
 .map1 {
     display: table;
