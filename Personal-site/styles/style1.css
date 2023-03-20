@@ -23,6 +23,11 @@ header {
     background-color: rgba(20, 30, 13, .7);
     width: 100%;
 }
+body {
+    background-color: #fcfbfb;
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 22px;
+}
 
 .logo {
     width: 80px;
