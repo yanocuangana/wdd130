@@ -1,38 +1,52 @@
 * {
     box-sizing: border-box;
+    grid-template-columns: 1fr 5fr;
   }
   .grid1 {
-    grid-template-columns: 12;
+    grid-template-columns: repeat(12, 1fr);
     padding-top: 2em;
+    bottom: 2em;
   }
   
   .grid1 h1 {
-    
+    display: grid;
+    color: brown;
+    padding: 1rem;
   }
   
   .grid2 {
-    
+    display: grid;
+    color: blue;
+    padding: 1rem;
   }
   .grid2 h2 {
-    
+    display: grid;
+    color: aqua;
+    padding: 1rem;
   }
   .grid3 {
-    
+    color: bisque;
+    padding: 1rem;
   }
   
   .grid3 h3 {
-    
+    color: green;
+    padding: 1rem;
   }
   
   .grid4 {
-    
+    color: brown;
+    padding: 1rem;
   }
   
   .grid4 h2 {
-    
+    color: black;
+    padding: 1rem;
   }
   .grid5{
-    grid-template-columns: 12;
+    color: gray;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1rem;
   }
   
   section {
@@ -54,15 +68,16 @@
   }
   
   fieldset > div {
-    grid-template-columns: (1fr 5fr);
+    grid-template-columns: (1fr 2fr);
+    gap: 0 1em;
   }
   
   label {
-    
+    align-self: right;
   }
   
   input {
-    
+    align-self: right;
   }
   
   button {
