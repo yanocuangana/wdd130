@@ -303,19 +303,3 @@ button {
     margin-top: 3em;
 }
 
-@media screen and (max-width: 900px) {
-    .home-grid {
-        display: block;
-        height: auto;
-    }
-
-    nav,
-    footer {
-        flex-direction: column;
-    }
-
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-}

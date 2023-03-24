@@ -1,0 +1,45 @@
+
+  .dropdown-content ul{
+    list-style-type: none;
+    padding:10px;
+  }
+  .dropdown-content ul{
+    background-color: rgb(34, 41, 37);
+    
+  }
+  .dropdown-content ul li{
+    display: inline;
+    position: relative;
+  }
+  .dropdown-content ul li a{
+    color: #ffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+  }
+  .dropdown-content ul li a:hover{
+    background-color: rgb(118, 180, 145);
+  }
+  .dropdown-content ul ul{
+    display: none;
+    left: 0;
+    position: absolute;
+  }
+  .dropdown-content ul li:hover ul{
+    display: block;
+  }
+  .dropdown-content ul ul{
+    display: 150px;
+  }
+  .dropdown-content ul ul li a {
+    display: block; 
+  }
+  dropdown-content
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(118, 180, 145);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
