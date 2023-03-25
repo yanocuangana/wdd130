@@ -9,6 +9,11 @@
     min-width: 500px;
     margin: 0 auto
 }
+#mee {
+    display: grid;
+    grid-template-columns: 1fr 0,5fr 1,5fr;
+    grid-template-rows: 100px 160px 50% 307,86px;
+}
 
 #mee,
 #me {
