@@ -11,8 +11,8 @@
 }
 #mee {
     display: grid;
-    grid-template-columns: 1fr 0,5fr 1,5fr;
-    grid-template-rows: 100px 160px 50% 307,86px;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 100px 200px 50%;
 }
 
 #mee,
@@ -198,6 +198,7 @@ main {
     display: flex;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 96.6% ;
 }
 
 #mee {
