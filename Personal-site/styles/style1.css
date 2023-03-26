@@ -190,15 +190,21 @@ main {
 
 .food {
     width: 500px;
+    height: 350px;
     margin-top: 20px;
     margin-left: 20px;
 }
+.food2 { 
+    grid-column: 7/12; 
+}
 
-.culture {
-    display: flex;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 96.6% ;
+.culture { 
+    display: flex; 
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr);
+}
+.culture1 { 
+    grid-column: 2/6; 
 }
 
 #mee {
