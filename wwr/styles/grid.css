@@ -1,89 +1,92 @@
 * {
-    box-sizing: border-box;
-    grid-template-columns: 1fr 5fr;
-  }
-  .grid1 {
-    grid-template-columns: repeat(12, 1fr);
-    padding-top: 2em;
-    bottom: 2em;
-  }
-  
-  .grid1 h1 {
-    display: grid;
-    color: brown;
-    padding: 1rem;
-  }
-  
-  .grid2 {
-    display: grid;
-    color: blue;
-    padding: 1rem;
-  }
-  .grid2 h2 {
-    display: grid;
-    color: aqua;
-    padding: 1rem;
-  }
-  .grid3 {
-    color: bisque;
-    padding: 1rem;
-  }
-  
-  .grid3 h3 {
-    color: green;
-    padding: 1rem;
-  }
-  
-  .grid4 {
-    color: brown;
-    padding: 1rem;
-  }
-  
-  .grid4 h2 {
-    color: black;
-    padding: 1rem;
-  }
-  .grid5{
-    color: gray;
-    grid-template-columns: repeat(12, 1fr);
-    padding: 1rem;
-  }
-  
-  section {
+
+}
+.grid1 {
+  display: grid;
+  grid-column: repeat(12, 1fr);
+  padding: 1rem;
+}
+
+.grid1 h1 {
+  padding-top: 1em ;
+  padding-bottom: 1em;
+}
+
+.grid2 {
+  display: grid;
+  grid-column: repeat(12, 1fr);
+  padding: 1rem;
+  background-color: wheat;
+  color: black;
+}
+.grid2 h2 {
+
+}
+.grid3 {
+  display: grid;
+  grid-column: repeat(12, 1fr);
+  background-color: rgb(39, 39, 194);
+  padding: 1rem;
+  color: black;
+}
+
+.grid3 h3 {
+
+}
+
+.grid4 {
+  display: grid;
+  grid-column: repeat(12, 1fr);
+  background-color: rgb(218, 28, 28);
+  padding: 1rem;
+  color: black;
+}
+
+.grid4 h2 {
+
+}
+.grid5 {
+  display: grid;
+  grid-column: repeat(12, 1fr);
+  padding: 1rem;
+}
+
+section {
     
-  }
-  
-  section h2 {
+}
+
+section h2 {
     
-  }
+}
+
+form {
   
-  form {
+}
+
+legend {
     
-  }
-  
-  
-  legend {
-    font-size: 20px;
-    font-weight: 700;
-  }
-  
-  fieldset > div {
-    grid-template-columns: (1fr 2fr);
-    gap: 0 1em;
-  }
-  
-  label {
-    align-self: right;
-  }
-  
-  input {
-    align-self: right;
-  }
-  
-  button {
-    
-  }
-  
-  section > div {
-    
-  }
+}
+
+fieldset>div {
+  display: grid;
+  grid-column: 1fr 2fr;
+  gap: 0 1em;
+  width: 100%;    
+}
+
+label {
+  align-self: right;
+}
+
+input {
+  align-items: left ;
+}
+
+button {
+
+}
+
+
+section>div {
+
+}
