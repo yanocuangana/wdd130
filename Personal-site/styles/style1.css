@@ -204,7 +204,7 @@ main {
     grid-template-columns: repeat(12, 1fr);
 }
 .culture1 { 
-    grid-column: 2/6; 
+    grid-column: 1/6; 
 }
 
 #mee {
