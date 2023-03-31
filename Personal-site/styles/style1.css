@@ -222,6 +222,16 @@ main {
     width: 500px;
     margin-left: 200px;
 }
+.sights1 {
+    grid-column: 14/1;
+}
+.desert2 {
+    grid-column: 14/1;
+}
+.sights {
+    display: grid; 
+    grid-template-columns: repeat(15, 1fr);
+}
 
 .text6 {
     text-align: justify;
