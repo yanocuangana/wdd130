@@ -6,7 +6,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: 100px;
     max-width: 1600px;
-    min-width: 500px;
     margin: 0 auto
 }
 #mee {
