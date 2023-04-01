@@ -21,7 +21,9 @@
     max-width: 1600px;
     min-width: 500px;
 }
-
+.bold {
+    font-weight: 700;
+}
 header {
     display: grid;
     grid-template-columns: 200px auto;
@@ -101,12 +103,11 @@ footer p {
 }
 
 .img {
-    display: table-cell;
-    float: left;
-    vertical-align: top;
-    margin-left: 20px;
-}
+    box-sizing: border-box;
+    max-width: 100%;
+    }
 
+    
 .text {
     display: table-cell;
     float: left;
@@ -159,11 +160,9 @@ nav a:hover {
 }
 
 main {
-    min-width: 320px;
-    max-width: 1080px;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
 }
-
 
 .dance-img {
     width: 500px;
@@ -217,16 +216,21 @@ main {
 
 }
 
-.water-img,
-.desert {
-    width: 500px;
-    margin-left: 200px;
+.water-img,.desert  {
+    grid-column: 1/6;
 }
+
 .sights1 {
-    grid-column: 14/1;
+    grid-column: 2/14;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 2em;
 }
 .desert2 {
-    grid-column: 14/1;
+    grid-column: 2/14;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 2em;
 }
 .sights {
     display: grid; 
@@ -234,15 +238,15 @@ main {
 }
 
 .text6 {
-    text-align: justify;
+    grid-column: 2/15;
 }
 
 .text7 {
-    text-align: justify;
+    grid-column: 6/-1;
 }
 
 .text8 {
-    text-align: justify;
+    grid-column: 1/-1;
 }
 
 form {
@@ -326,4 +330,3 @@ button {
 .moveDown {
     margin-top: 3em;
 }
-
