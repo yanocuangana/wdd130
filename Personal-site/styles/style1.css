@@ -19,8 +19,8 @@
 #me {
     
     max-width: 1600px;
-    min-width: 500px;
 }
+
 .bold {
     font-weight: 700;
 }
@@ -107,7 +107,7 @@ footer p {
     max-width: 100%;
     }
 
-    
+
 .text {
     display: table-cell;
     float: left;
