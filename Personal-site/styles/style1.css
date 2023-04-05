@@ -67,8 +67,8 @@ main {
 }
 .angola-img {
     width: 500px;
-    justify-self: center;
-    align-self: center;
+    justify-self: left;
+    align-self: left;
 }
 .img  {
     grid-column: 2/6;
