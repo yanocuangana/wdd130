@@ -68,7 +68,6 @@ main {
 .angola-img {
     width: 500px;
     justify-self: left;
-    align-self: left;
 }
 .img  {
     grid-column: 2/6;
